@@ -1,3 +1,6 @@
+run:
+	cd www && flask --app=__init__.py run
+
 download-all:
 	scp -r breizhcamp-feedback@ssh-breizhcamp-feedback.alwaysdata.net:www .
 
