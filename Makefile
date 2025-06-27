@@ -20,3 +20,6 @@ deploy:
 	@echo -------------------------------------------------------
 	@echo Now you must restart the website in the admin interface
 	@echo -------------------------------------------------------
+
+psql: 
+	docker exec -it db psql -U postgres
